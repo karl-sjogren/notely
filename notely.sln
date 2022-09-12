@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AC288E1C-13C8-433A-A6E2-D97D1DC929D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notely.Core", "src\Notely.Core\Notely.Core.csproj", "{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notely.App", "src\Notely.App\Notely.App.csproj", "{56EA0F0B-B0C4-4162-9E01-366899235D80}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{181DE45F-ED38-40C4-9666-7A1D319389CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notely.Core.Tests", "test\Notely.Core.Tests\Notely.Core.Tests.csproj", "{70827156-C059-480A-8507-2F14BCE10CE1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Notely.App.Tests", "test\Notely.App.Tests\Notely.App.Tests.csproj", "{FDBE9671-213B-4ABD-A711-0252DA919684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56EA0F0B-B0C4-4162-9E01-366899235D80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56EA0F0B-B0C4-4162-9E01-366899235D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56EA0F0B-B0C4-4162-9E01-366899235D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56EA0F0B-B0C4-4162-9E01-366899235D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70827156-C059-480A-8507-2F14BCE10CE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70827156-C059-480A-8507-2F14BCE10CE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70827156-C059-480A-8507-2F14BCE10CE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70827156-C059-480A-8507-2F14BCE10CE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDBE9671-213B-4ABD-A711-0252DA919684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDBE9671-213B-4ABD-A711-0252DA919684}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDBE9671-213B-4ABD-A711-0252DA919684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDBE9671-213B-4ABD-A711-0252DA919684}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CFD9D111-9B64-40D5-B8D7-CC56A101DE6F} = {AC288E1C-13C8-433A-A6E2-D97D1DC929D1}
+		{56EA0F0B-B0C4-4162-9E01-366899235D80} = {AC288E1C-13C8-433A-A6E2-D97D1DC929D1}
+		{70827156-C059-480A-8507-2F14BCE10CE1} = {181DE45F-ED38-40C4-9666-7A1D319389CC}
+		{FDBE9671-213B-4ABD-A711-0252DA919684} = {181DE45F-ED38-40C4-9666-7A1D319389CC}
+	EndGlobalSection
+EndGlobal

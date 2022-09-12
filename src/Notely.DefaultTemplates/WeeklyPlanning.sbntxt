@@ -1,0 +1,9 @@
+# {{ today | date.to_string '%d %b %Y' }}
+
+{{ for date in work_week_days }}
+
+## {{date.dayOfWeek.to_string('dddd') }} {{date.dayOfWeek.to_string('dddd') }}
+
+
+
+{{ end }}
