@@ -1,2 +1,3 @@
 # {{ today.to_string('d') }}
 
+Tags: generic-notes

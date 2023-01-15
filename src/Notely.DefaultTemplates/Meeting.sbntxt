@@ -1,0 +1,11 @@
+# Meeting notes {{ today.to_string('d') }}
+
+Tags: meeting-notes
+
+## Participants
+
+* {{authorName}}
+*
+
+## Notes
+

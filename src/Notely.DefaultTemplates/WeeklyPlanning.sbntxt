@@ -1,9 +1,9 @@
 # Weekly planning
 
+Tags: weekly-planning
+
 {{ for date in work_week_days }}
 
 ## {{date.dayOfWeek.to_string('dddd') }} {{date.dayOfWeek.to_string('d') }}
-
-
 
 {{ end }}

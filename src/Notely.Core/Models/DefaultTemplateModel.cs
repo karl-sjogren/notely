@@ -9,6 +9,9 @@ public class DefaultTemplateModel {
     public IEnumerable<DateTime> WorkWeekDays { get; set; } = Enumerable.Empty<DateTime>();
     public IEnumerable<DateTime> FullWeekDays { get; set; } = Enumerable.Empty<DateTime>();
 
-    public CultureInfo Culture { get; set; } = CultureInfo.CurrentCulture;
-    public string CultureTwoLetter { get; set; } = DefaultValues.FallbackCulture;
+    public CultureInfo Culture { get; set; } = new(DefaultValues.FallbackCulture);
+    public string CultureTwoLetter => Culture.TwoLetterISOLanguageName;
+
+    public string AuthorName { get; set; } = string.Empty;
+    public string AuthorEmail { get; set; } = string.Empty;
 }

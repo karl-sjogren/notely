@@ -17,7 +17,6 @@ public class TemplateModelFactory : ITemplateModelFactory {
         var culture = CultureInfo.GetCultureInfo(_configuration.Culture ?? DefaultValues.FallbackCulture);
 
         model.Culture = culture;
-        model.CultureTwoLetter = culture.TwoLetterISOLanguageName;
 
         var now = _dateTimeProvider.Now;
 
